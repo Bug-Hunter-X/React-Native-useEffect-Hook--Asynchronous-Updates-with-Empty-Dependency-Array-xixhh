@@ -1,0 +1,1 @@
+This error occurs when using the `useEffect` hook in React Native with an empty dependency array (`[]`).  While seemingly harmless, it can lead to unexpected behavior if the component's state or props are updated asynchronously after the initial render.
